@@ -164,14 +164,20 @@ body {
 }
 
 .intro-grid article ul {
-  margin: 1rem 0 0;
-  padding-left: 1.25rem;
+  margin: 1.25rem 0 0;
+  padding-left: 1.45rem;
   color: var(--muted);
+  list-style: disc;
+  list-style-position: inside;
 }
 
 .intro-grid article ul li {
-  margin-bottom: 0.85rem;
-  line-height: 1.65;
+  margin: 0 0 1rem 0;
+  line-height: 1.85;
+}
+
+.intro-grid article ul li::marker {
+  color: rgba(169, 122, 79, 0.88);
 }
 
 .intro-grid h2 {
