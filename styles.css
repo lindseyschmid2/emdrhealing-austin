@@ -8,11 +8,8 @@
   --cream-strong: #f3e8db;
   --ink: #2f2a24;
   --muted: #6e655b;
-  --sage: #7e9171;
+  --sage: #6f7f64;
   --sage-dark: #4f5f46;
-  --sage-soft: #eaf3e4;
-  --blush: #f3e0e6;
-  --blush-deep: #d9aeb8;
   --accent: #a97a4f;
   --accent-deep: #7d5834;
   --border: #e6d8c5;
@@ -83,7 +80,7 @@ body {
 .hero {
   position: relative;
   overflow: hidden;
-  background: linear-gradient(135deg, var(--sage-soft) 0%, var(--blush) 100%);
+  background: linear-gradient(135deg, #f7efe4 0%, #fffaf4 70%);
   border: 1px solid var(--border);
   border-radius: 30px;
   padding: 3.25rem 3rem;
@@ -247,7 +244,7 @@ body {
   padding: 1rem 1.25rem;
   border: 1px solid var(--border);
   border-radius: 20px;
-  background: linear-gradient(135deg, var(--sage-soft) 0%, var(--blush) 100%);
+  background: #f8efe3;
 }
 
 .site-footer p {
