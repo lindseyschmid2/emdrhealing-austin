@@ -169,6 +169,7 @@ body {
   color: var(--muted);
   list-style: disc;
   list-style-position: inside;
+  font-family: Inter, "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 .intro-grid article ul li {
@@ -180,10 +181,15 @@ body {
   color: rgba(169, 122, 79, 0.88);
 }
 
+.intro-grid h2,
+.intro-grid article p,
+.intro-grid article ul {
+  font-family: Inter, "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
 .intro-grid h2 {
   margin-top: 0;
   color: #3f382f;
-  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
 }
 
 .about-content,
