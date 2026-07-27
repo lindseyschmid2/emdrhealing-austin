@@ -163,6 +163,17 @@ body {
   box-shadow: 0 10px 24px rgba(74, 54, 33, 0.05);
 }
 
+.intro-grid article ul {
+  margin: 1rem 0 0;
+  padding-left: 1.25rem;
+  color: var(--muted);
+}
+
+.intro-grid article ul li {
+  margin-bottom: 0.85rem;
+  line-height: 1.65;
+}
+
 .intro-grid h2 {
   margin-top: 0;
   color: #3f382f;
