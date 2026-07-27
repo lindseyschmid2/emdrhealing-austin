@@ -194,6 +194,18 @@ body {
   color: var(--muted);
 }
 
+.about-video-block {
+  margin-top: 1.25rem;
+}
+
+.about-video-block video {
+  width: 100%;
+  max-width: 720px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  background: #f1e9de;
+}
+
 .about-content h2,
 .contact-form-section h2 {
   margin-top: 1.8rem;
