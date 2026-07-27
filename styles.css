@@ -82,7 +82,7 @@ body {
   overflow: hidden;
   background:
     linear-gradient(135deg, rgba(247, 239, 228, 0.82) 0%, rgba(255, 250, 244, 0.7) 70%),
-    url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80') center/cover no-repeat;
+    url('https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=1400&q=80') center/cover no-repeat;
   border: 1px solid var(--border);
   border-radius: 30px;
   padding: 3.25rem 3rem;
