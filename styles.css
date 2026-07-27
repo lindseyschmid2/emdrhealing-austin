@@ -250,6 +250,38 @@ body {
   background: #f8efe3;
 }
 
+.video-grid {
+  display: grid;
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.video-card {
+  background: #fcf7f0;
+  border: 1px solid var(--border);
+  border-radius: 22px;
+  padding: 1rem;
+}
+
+.video-card h3 {
+  margin-top: 0;
+  color: #3f382f;
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
+}
+
+.video-card img {
+  display: block;
+  width: 100%;
+  border-radius: 14px;
+  margin-bottom: 0.75rem;
+}
+
+.video-card p {
+  margin: 0;
+  color: var(--muted);
+}
+
 .site-footer p {
   margin: 0;
   color: var(--muted);
