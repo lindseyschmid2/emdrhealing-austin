@@ -108,7 +108,8 @@ body {
   line-height: 1.1;
   color: #3f382f;
   font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
-  max-width: 12ch;
+  max-width: none;
+  white-space: nowrap;
 }
 
 .hero p {
