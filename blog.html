@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog - Austin EMDR Therapy</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Austin EMDR Therapy</a>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="about-emdr.html">About EMDR</a>
+        <a href="about.html">About Lindsey</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-content container">
+    <section class="page-heading">
+      <h1>Blog</h1>
+      <p>Share reflections, healing insights, and updates here.</p>
+    </section>
+
+    <section class="blog-layout">
+      <form id="blog-form" class="blog-form">
+        <label for="title">Title</label>
+        <input id="title" name="title" type="text" required />
+
+        <label for="excerpt">Excerpt</label>
+        <input id="excerpt" name="excerpt" type="text" required />
+
+        <label for="content">Content</label>
+        <textarea id="content" name="content" rows="8" required></textarea>
+
+        <label for="date">Date</label>
+        <input id="date" name="date" type="date" required />
+
+        <button class="button" type="submit">Publish post</button>
+      </form>
+
+      <section class="blog-list-section">
+        <h2>Recent posts</h2>
+        <div id="blog-posts" class="blog-posts"></div>
+      </section>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Austin EMDR Therapy</p>
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="about-emdr.html">About EMDR</a>
+        <a href="about.html">About Lindsey</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="blog.js"></script>
+</body>
+</html>
