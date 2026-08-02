@@ -22,31 +22,46 @@
 
   <main class="page-content container">
     <section class="page-heading">
-      <h1>Blog</h1>
-      <p>Share reflections, healing insights, and updates here.</p>
+      <div class="heading-text">
+        <h1>Blog</h1>
+        <p>Reflections, support, and practical insights for healing, growth, and everyday life.</p>
+      </div>
     </section>
 
-    <section class="blog-layout">
-      <form id="blog-form" class="blog-form">
-        <label for="title">Title</label>
-        <input id="title" name="title" type="text" required />
+    <section class="blog-shell">
+      <div class="blog-main">
+        <section class="blog-list-section">
+          <div class="blog-list-header">
+            <h2>Latest articles</h2>
+            <p>Browse the most recent posts here.</p>
+          </div>
+          <div id="blog-posts" class="blog-posts"></div>
+        </section>
+      </div>
 
-        <label for="excerpt">Excerpt</label>
-        <input id="excerpt" name="excerpt" type="text" required />
+      <aside class="blog-sidebar">
+        <section class="blog-search-card">
+          <h2>Search</h2>
+          <label class="visually-hidden" for="blog-search">Search posts</label>
+          <input id="blog-search" type="search" placeholder="Search posts" />
+        </section>
 
-        <label for="content">Content</label>
-        <textarea id="content" name="content" rows="8" required></textarea>
-
-        <label for="date">Date</label>
-        <input id="date" name="date" type="date" required />
-
-        <button class="button" type="submit">Publish post</button>
-      </form>
-
-      <section class="blog-list-section">
-        <h2>Recent posts</h2>
-        <div id="blog-posts" class="blog-posts"></div>
-      </section>
+        <section class="blog-categories-card">
+          <h2>Categories</h2>
+          <ul class="blog-categories">
+            <li><button type="button" class="category-chip is-active" data-category="all">All topics</button></li>
+            <li><button type="button" class="category-chip" data-category="Anxiety">Anxiety</button></li>
+            <li><button type="button" class="category-chip" data-category="Trauma & Healing">Trauma & Healing</button></li>
+            <li><button type="button" class="category-chip" data-category="Couples & Relationships">Couples & Relationships</button></li>
+            <li><button type="button" class="category-chip" data-category="Depression">Depression</button></li>
+            <li><button type="button" class="category-chip" data-category="Grief & Loss">Grief & Loss</button></li>
+            <li><button type="button" class="category-chip" data-category="Life Transitions">Life Transitions</button></li>
+            <li><button type="button" class="category-chip" data-category="Neurodiversity">Neurodiversity</button></li>
+            <li><button type="button" class="category-chip" data-category="Self Care & Well-Being">Self Care & Well-Being</button></li>
+            <li><button type="button" class="category-chip" data-category="General">General</button></li>
+          </ul>
+        </section>
+      </aside>
     </section>
   </main>
 
