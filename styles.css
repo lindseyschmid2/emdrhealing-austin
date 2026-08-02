@@ -82,7 +82,7 @@ body {
   overflow: hidden;
   background:
     linear-gradient(135deg, rgba(247, 239, 228, 0.82) 0%, rgba(255, 250, 244, 0.7) 70%),
-    url('https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=1400&q=80') center/cover no-repeat;
+    url('https://images.unsplash.com/photo-1468327768560-75b778cbb551?auto=format&fit=crop&w=1400&q=80') center/cover no-repeat;
   border: 1px solid var(--border);
   border-radius: 30px;
   padding: 3.25rem 3rem;
@@ -161,6 +161,13 @@ body {
   border-radius: 24px;
   padding: 1.7rem;
   box-shadow: 0 12px 28px rgba(74, 54, 33, 0.06);
+}
+
+.intro-card-wide {
+  grid-column: 1 / -1;
+  background:
+    linear-gradient(135deg, rgba(247, 239, 228, 0.82) 0%, rgba(255, 250, 244, 0.7) 70%),
+    url('https://images.unsplash.com/photo-1468327768560-75b778cbb551?auto=format&fit=crop&w=1400&q=80') center/cover no-repeat;
 }
 
 .intro-grid article ul {
